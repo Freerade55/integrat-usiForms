@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+<form>
+    <label for="source">Источник сделки:</label>
+    <select id="source" onchange="clearDeals()">
+        <option value="Заявка с сайта">Заявка с сайта</option>
+        <option value="Marquiz">Marquiz</option>
+        <option value="Одноклассники">Одноклассники</option>
+        <option value="Вк">Вк</option>
+    </select>
+    <br>
+    <button type="button" onclick="addDeal()">Добавить сделку</button>
+    <div id="deals">
+
+    </div>
+    <br>
+    <button type="button" onclick="collectDeals()">Отправить</button>
+
+
+</form>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

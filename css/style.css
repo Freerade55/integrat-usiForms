@@ -1,0 +1,99 @@
+
+
+* {
+
+    font-size: 16px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    margin-right: 10px;
+}
+
+input[type="text"],
+select {
+    margin-bottom: 10px;
+}
+
+button[type="submit"],
+button[type="button"] {
+    margin-top: 10px;
+}
+
+#deals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deal {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.deal label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.deal input[type="text"],
+.deal select {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+/* Стилизуем кнопки */
+button {
+    background-color: #4CAF50; /* Зеленый цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 10px 20px; /* Увеличиваем внутренние отступы */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругляем углы */
+    cursor: pointer; /* Делаем курсор при наведении на кнопку */
+}
+
+button:hover {
+    background-color: #3e8e41; /* Изменяем цвет фона при наведении */
+}
+
+#source {
+
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+select[name="pipeline"] {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+#firstLabel {
+
+    margin-bottom: 8px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+
+
